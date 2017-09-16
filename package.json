@@ -1,0 +1,27 @@
+{
+  "name": "javascriptcourses",
+  "version": "1.0.0",
+  "description": "JavascriptCourses",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyrilQuandalle/JavascriptCourses.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "cquandalle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyrilQuandalle/JavascriptCourses/issues"
+  },
+  "homepage": "https://github.com/CyrilQuandalle/JavascriptCourses#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.1.0"
+  }
+}
