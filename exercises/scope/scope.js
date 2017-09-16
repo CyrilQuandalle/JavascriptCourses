@@ -13,7 +13,7 @@ export function sayMyName () {
   return name
 }
 
-export function misteriousNumber () {
+export function misteriousNumber () { //hoisting
   console.log(a)
   console.log(foo())
 
@@ -24,10 +24,10 @@ export function misteriousNumber () {
 }
 
 var a = 1
-function b () {
+export function whatsMyA () {
   a = 10
 
   function a () {}
 }
-b()
+whatsMyA()
 console.log(a)

@@ -8,8 +8,4 @@ describe('scope exercises', () => {
   it('should diplay the right number', () => {
     expect(display(2)).toEqual('???')
   })
-
-  it('should display the misterious nmber', () => {
-    misteriousNumber()
-  })
 })
