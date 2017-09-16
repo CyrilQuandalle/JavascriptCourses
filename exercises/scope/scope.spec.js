@@ -1,20 +1,14 @@
-import display from './exo.js'
-describe('scope exercises', () => {
-// it('a function has access to its own local scope variables', () => {
-//     var fn = function () {
-//       var name = 'inner'
-//       ACTUAL = name
-//     }
-//     fn()
-//     expect(ACTUAL === '???').toBe(true)
-//   })
+import { display } from './scope.js'
+import { sayMyName } from "./scope";
 
-  it('', () => {
-  var c = 3
+describe ('scope exercises', () => {
+    it ('a function has access to its own local scope variables', () => {
+        expect(sayMyName()).toEqual('???')
+    })
 
-  console.log(display(2))
-
-})
+    it('should diplay the right number', () => {
+        expect(display(2)).toEqual('???')
+    })
 
 })
 
