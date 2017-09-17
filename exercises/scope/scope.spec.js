@@ -1,4 +1,4 @@
-import { display, sayMyName } from './scope'
+import { display, sayMyName } from './functionScope'
 
 describe('scope exercises', () => {
   it('a function has access to its own local scope variables', () => {
