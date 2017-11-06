@@ -6,3 +6,14 @@ export const character = {
     }
   }
 }
+
+export const owner = {
+  firstName: 'Harry',
+  info: {
+    owlOwner: true,
+    boatOwner: true
+  },
+  displayInfo: function () {
+    return 'Owl owner ? ' + this.owlOwner
+  }
+}
