@@ -17,3 +17,18 @@ export const owner = {
     return 'Owl owner ? ' + this.owlOwner
   }
 }
+
+export const instructor = {
+  firstName: 'Tim',
+  info: {
+    catOwner: true,
+    boatOwner: true,
+    displayLocation: function () {
+      return this.location
+    },
+    data: {
+      location: 'Oakland',
+      logLocation: this.displayLocation
+    }
+  }
+}
