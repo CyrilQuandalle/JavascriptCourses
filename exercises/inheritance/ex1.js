@@ -5,8 +5,7 @@ export function Person (first, last, age, gender, interests) {
   this.age = age
   this.gender = gender
   this.interests = interests
-};
-
+}
 Person.prototype.bio = function () {
   let string = `${this.name.first} ${this.name.last} is ${this.age} years old. `
   let pronoun
@@ -26,7 +25,7 @@ Person.prototype.bio = function () {
   } else if (this.interests.length === 2) {
     string += this.interests[0] + ' and ' + this.interests[1] + '.'
   } else {
-    for (var i = 0; i < this.interests.length; i++) {
+    for (let i = 0; i < this.interests.length; i++) {
       if (i === this.interests.length - 1) {
         string += 'and ' + this.interests[i] + '.'
       } else {
