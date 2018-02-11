@@ -1,5 +1,5 @@
 function fakeAjax (url, cb) {
-  const fake_responses = {
+  const fakeResponses = {
     'file1': 'The first text',
     'file2': 'The middle text',
     'file3': 'The last text'
@@ -9,7 +9,7 @@ function fakeAjax (url, cb) {
   console.log('Requesting: ' + url)
 
   setTimeout(function () {
-    cb(fake_responses[url])
+    cb(fakeResponses[url])
   }, randomDelay)
 }
 
