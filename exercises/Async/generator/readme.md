@@ -1,5 +1,7 @@
 # Instructions
 
+* Le code est à lancer avec la commande : "node ex.js"
+
 1. Comportement attendu :
 	- Requétez les trois fichiers en même temps (en parallèle)
 	- Affichez les immédiatement
